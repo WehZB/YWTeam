@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <!--
+  Данный сайт сделан пользователем Weh, с максимальной помощью NikHokDanGD.
+  Заходите на майнкрафт сервер CMCraft https://discord.gg/cQ5bu4Mb5p
+  Вступайте в Лордсайд! https://discord.com/invite/CUQcPu5KjS
+   -->
+    <link href="/snowFlakes/snow.min.css" rel="stylesheet">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YW Team</title>
     <link type="image/x-icon" href="https://wehzb.github.io/YWTeam/favicon.ico" rel="shortcut icon">
@@ -14,11 +20,15 @@
     <link rel="stylesheet" href="style.css">
     <meta property="og:url" content="https://wehzb.github.io/YWTeam/"/>
     <meta property="og:site_name" content="YWTeam" />
-    <meta property="og:description" content="Это сайт на котором указана информация о нас и наши основные проекты" />
+    <meta property="og:description" content="Это сайт, на котором указана информация о нас и наши основные проекты" />
     <meta property="og:title" content="Получите доступ в свободный интернет!" />
     <meta property="og:image" content="https://wehzb.github.io/YWTeam/favicon.ico" />
 </head>
 <body>
+  <script src="/snowFlakes/Snow.js"></script>
+<script>
+	new Snow ();
+</script>
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
           <img src="https://goodhous.github.io/yorkwillimgrepo/57.webp" class="bi me-2 logo" width="50" height="50"></img>
@@ -31,39 +41,35 @@
         </ul>
       </header>
     <main>
-      <div class="video-background">
-        <video autoplay muted loop  id="myVideo">
-            <source src="video.mp4" type="video/mp4">
-        </video>
-      </div>
+
 
       <div class="content1 content noselect">
         <div class="contentText content1Text">
-          <h2 class="contentTitle content1Title">Zapret_Build</h2>
-          <p class="contentParagraph content1Paragraph">Данный проект - наш способ помочь людям получить доступ к заблокированным сайтам и сервисам как например Youtube и Discord на основе оригинальных бинарников Zapret с гитхаба bol-van</p>
-          <p>Особенности:</p>
-          <p>Система обновления хостов</p>
-          <p>добавление в автозагрузку как сервис</p>
-          <p>Возсожность просмотреть код и знать что вирусов нет</p>
-          <button onclick="download()" class="glow-on-hover">Получить</button>
+          <h3 class="contentTitle content1Title">Zapret_Build</h3>
+          <p class="contentParagraph content1Paragraph">Данный проект - это наш способ помочь людям получить доступ к заблокированным сайтам и сервисам, таким как YouTube и Discord, на основе оригинальных бинарников Zapret с GitHub bol-van.</p>
+          <span>Особенности:</span>
+          <span>- Система обновления хостов;</span>
+          <span>- Добавление в автозагрузку как сервис;</span>
+          <span class="bottomSpan">- Возможность просмотреть код и знать, что вирусов нет.</span>
+          <button onclick="download()" class="glow-on-hover">Скачать Zapret</button>
         </div>
       </div>
       <div class="content2 content noselect">
         <div class="contentText content2Text">
-          <h2 class="contentTitle content2Title">Free Vpn Keys</h2>
-          <p class="contentParagraph content2Paragraph">Благодаря бесплатным ВПН ключам вы можете получать доступ к заблокированным сайтам и обходить блокировке в играх</p>
-          <p>Особенности:</p>
-          <p>Полностью бесплатно</p>
-          <p>Поддержка разных приложений</p>
-          <button onclick="redirect('https://goodhous.github.io/zapretHostsForm/keys')"  class="glow-on-hover">Перейти</button>
+          <h3 class="contentTitle content2Title">Free VPN-keys</h3>
+          <p class="contentParagraph content2Paragraph">Благодаря бесплатным VPN-ключам, вы можете получить доступ к заблокированным сайтам и обходить блокировки в играх.</p>
+          <span>Особенности:</span>
+          <span>- Полностью бесплатно;</span>
+          <span class="bottomSpan">- Поддержка разных приложений.</span>
+          <button onclick="redirect('https://goodhous.github.io/zapretHostsForm/keys')"  class="glow-on-hover">Получить ключи</button>
         </div>
       </div>
       <div class="content3 content noselect">
         <div class="contentText content3Text">
-          <h2 class="contentTitle content3Title">YW Team</h2>
-          <p class="contentParagraph content3Paragraph">YW Team (YWT) собственно наша команда из 3 человек которые и делают программу для обхода блокировок и раздают впн ключи предоставляя полный свободный доступ к интернету стараясь помочь людям. У нас есть дискорд перейти вы можете ниже.
+          <h3 class="contentTitle content3Title">YW Team</h3>
+          <p class="contentParagraph content3Paragraph">YW Team (YWT) - наша команда из 3 человек, которая делает программу для обхода блокировок и раздаёт VPN-ключи, предоставляя полный свободный доступ к интернету, стараясь помочь людям. У нас есть дискорд, присоединиться к которому вы можете ниже. А еще NikHokDanGD очень сильно помог с созданием этого сайта, спасибо ему!
           <p class=""></p>
-            <button onclick="redirect('https://discord.gg/QvStrN3KNS')"  class="glow-on-hover">Перейти</button>
+            <button onclick="redirect('https://discord.gg/QvStrN3KNS')"  class="glow-on-hover">Присоединиться</button>
         </div>
       </div>
     </main>
@@ -77,7 +83,7 @@
 
           <span class="mb-3 mb-md-0  footerText">© 2024 Made by YW Team</span>
                     <div class="heil">
-            <p class="heilText">Спасибо за посещение</p>
+            <p class="heilText">Спасибо за посещение и использование наших проектов!</p>
           </div>
         </div>
     </footer>

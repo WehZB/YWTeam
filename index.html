@@ -6,7 +6,7 @@
   Заходите на майнкрафт сервер CMCraft https://discord.gg/cQ5bu4Mb5p
   Вступайте в Лордсайд! https://discord.com/invite/CUQcPu5KjS
    -->
-    <link href="/snowFlakes/snow.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/snow.min.css" rel="stylesheet">
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YW Team</title>
@@ -25,9 +25,18 @@
     <meta property="og:image" content="https://wehzb.github.io/YWTeam/favicon.ico" />
 </head>
 <body>
-  <script src="/snowFlakes/Snow.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/Snow.min.js"></script>
 <script>
-	new Snow ();
+	new Snow ({			
+    showSnowBalls: false,
+		showSnowBallsIsMobile: false,
+		showSnowflakes: true,
+		countSnowflake: 200,
+		snowBallsLength: 50,
+		snowBallIterations: 1000,
+		snowBallupNum: 2,
+		snowBallIterationsInterval: 10,
+		clearSnowBalls: 20000,});
 </script>
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
